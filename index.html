@@ -1,23 +1,43 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Road Runner Chicken</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="scripts/jquery.min.js"></script> 
+</head>
+<body>
+<div id="wrapper">
+	<div class="main">
+		<div class="header">
+			<div class="logo">
+				<h1>road<strong>runner</strong>chicken</h1>
+				<h2><strong>everything chicken</strong></h2>
+			</div>
+			<ul class="social">
+				<li class="facebook"><a href="https://www.facebook.com/Road-Runner-101959046847052"></a></li>
+				<li class="twitter"><a href="https://twitter.com/roadrunnerhuku"></a></li>
+				<li class="youtube"><a href="https://www.youtube.com/channel/UCKk39IIT4bdG_dxP1DShczA"></a></li>
+			</ul>
+		</div>
+		
+		<ul class="boxes">
+			<li>
+				<h3>the original</h3>
+				 taste of chicken
+				<span class="divider"></span>
+			</li>
+			<li class="email">
+				<h3>email us</h3>
+				<a href="mailto:info@roadrunnerchicken.com">info@roadrunnerchicken.com</a>
+				<span class="divider"></span>
+			</li>
+			<li class="last">
+				<h3>call us</h3>
+				+263 772 901 048
+			</li>
+		</ul>
+	</div>
 </div>
+</body>
+</html>
